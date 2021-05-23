@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header'
+import Tasks from './components/Tasks'
 import React, { Component } from 'react';
 
 // class App extends Component {
@@ -18,6 +19,7 @@ const App = ()=> {
   return (
     <div className="container">
       <Header />
+      <Tasks />
     </div>
   );
 }
