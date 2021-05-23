@@ -17,7 +17,7 @@ import React, { Component } from 'react';
 const App = ()=> {
   return (
     <div className="container">
-      <Header title="Task Tracker"/>
+      <Header />
     </div>
   );
 }
